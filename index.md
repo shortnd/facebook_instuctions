@@ -1,0 +1,12 @@
+- Login to Facebook using a Desktop Computer. **IMPORTANT:** Login using an account that has admin rights to the Facebook page you would like to pull the posts form.
+- Go to [https://developers.facebook.com](https://developers.facebook.com) and click My Apps link on the top right of the page.
+- Click on Add New App.
+- Fill the Display Name and Contact Email and click Create App ID.
+- After creating the application, go to [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer) and click on the Application dropdown on the upper right part of the page. Select the application you just created.
+- After selecting your application, click on the Get Token dropdown right below the Application dropdown and select Get User Access Token. It should open a new window. **If it doesn't please check popup blocker isn't active.**
+- In the window, select manage_pages and pages_show_list are checked, then click Get Access Token
+- Click on the blue icon to the right most side of the Access Token input box. A box should pop-up. In the box, click on Open in Access Token Tool. This will open up a new tab.
+- In the new tab, click on Extend Access Token. Then a new section will popup with a new access token, click on the Debug button. This will open another tab.
+- Go back to the first tab (Graph API Explorer) and replace the access token with the one from the last tab that opened.
+- Change me?fields=id,name to me/accounts and click Submit.
+- Click on Copy Debug Information and paste it in a reply here.
