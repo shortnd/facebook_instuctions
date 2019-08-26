@@ -57,6 +57,28 @@ Below are the instructions to create a facebook token for your page.
 
 14. Once done copy and paste the debug information to the email or support ticket
 
-<!-- ## Delete Apps
+## Delete Apps
 
-1. If you need to delete an App please go  -->
+1. If you need to delete an App, click on the My Apps Dropdown
+
+![Outline of My Apps Dropdown](../images/my-apps-outline.png)
+
+2. Click See All Apps Option
+
+![Outline of See All Apps](../images/see-all-apps-outline.png)
+
+3. Hover over the App you want to delete and click the down arrow that appears
+
+![Selected app hover with down arrow](../images/hover-over-selected-app.png)
+
+4. Click the delete app option
+
+![Delete app dropdown](../images/delete-app.png)
+
+5. In the popup click delete app
+
+![Popup for Delete App](../images/delete-app-popup.png)
+
+6. Then reenter your password and submit. Once submitted your app will be deleted.
+
+![Enter your password to delete app](../images/enter-password.png)
