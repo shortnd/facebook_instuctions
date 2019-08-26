@@ -3,7 +3,7 @@
 ## Create Apps and Tokens
 Below are the instructions to create a facebook token for your page.
 
-1. Login to Facebook using a Desktop Computer. **IMPORTANT:** Login using an account that has admin rights to the Facebook page your would like to pull posts from.
+1. Login to Facebook using a Desktop Computer. **IMPORTANT:** Login using an account that has admin rights to the Facebook page your would like to pull posts from. Then go to [https://developers.facebook.com](https://developers.facebook.com)
 
 ![Facebook Developer Menu](../images/developer-facebook-menu.png)
 
