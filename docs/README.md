@@ -19,43 +19,60 @@ Below are the instructions to create a facebook token for your page.
 
 ![Graph API Explorer url](../images/developer-explorer.png)
 
-5. click on the Application dropdown on the upper right part of the page. Select the application you just created.
+5. Select your App from the drop down
 
-![Graph API Explorer url](../images/graph-api-explorer-outline.png)
+![Select Facebook App](../images/facebook-select-app.png)
 
-6. After selecting your application, click on the Get Token dropdown right below the Appliction dropdown and select Get User Access Token. It might open up a new window. **If it doesn't please check that popup blocker isn't active.**
+6. Then select "Get User Access Token" from the User or Page Select
 
-![Get Token Dropdown](../images/get-token-dropdown.png)
+![Select User or Page](../images/facebook-select-user-token.png)
 
-7. In that window, select manage_pages and pages_show_list, then click Get Access Token
+- You will get a new window where it askes to verify if you want to continue with this account.
 
-![Select Permissions Window](../images/select-permissions-window.png)
+7. Under Permissions select the two options for manage_pages and pages_show_list
 
-8. Click on the blue icon to the right most side of the Access Token input box.
+![Pages Permissions](../images/facebook-permissions.png)
 
-![Blue Icon Outline](../images/graph-api-explorer-blue-outline.png)
+8. Click Generate Access Token
 
-9. A box should pop-up. In the box, click on Open in Access Token Tool. This will open up a new tab.
+![Facebook Access Token](../images/facebook-generate-access-token-button.png)
 
-![Access Token Info Dropdown](../images/access-token-dropdown.png)
+9. In the next popup, select "Continue as `<your account>`", then select the page you want to show. On the next option make sure all options are selected and click "Done". Once it finishes click "OK"
 
-10. In the new tab, click on Extend Access Token.
+10. Click the blue "i" icon next to the access token
 
-![Extend Access Token Outline](../images/extend-access-token-outline.png)
+![Blue Access Token](../images/facebook-blue-access-token.png)
 
-11. A new box should show up, there click on the Debug button. This will open another new Tab.
+11. Then in the new popup select "Open in Access Token Tool"
 
-![Debug Button and Key](../images/debug-button.png)
+![Open in Access Token Tool](../images/facebook-open-in-access-token-tool.png)
 
-12. Go back to the first tab (Graph API Explorer) and replace the access token with the one from the last tab that was opened
+12. Once the new tab loads go down to the bottom and click "Extend Access Token"
 
-![Replace Key](../images/replaced-key-access-token.png)
+![Extend Access Token Button](../images/facebook-extend-access-token-button.png)
 
-13. Change ```me?fields=id,name``` to ```me/accounts``` and click submit
+13. Re-enter your password in the popup.
 
-![Change to ME/Accounts](../images/me-accounts.png)
+14. Then click the "Debug" button
 
-14. Once done copy and paste the debug information to the email or support ticket
+![Debug button](../images/facebook-debug-button.png)
+
+15. In the new tab select all the text in the box
+
+![New Access Token Selected](../images/facebook-select-all-text.png)
+
+16. Go back to the original tab "Graph API Explorer" and paste the copied text into the access token box
+
+![Pasted in access token](../images/facebook-paste-access-token.png)
+
+17. Change the ```me?fields=id,name``` to ```me/accounts``` then click submit
+
+![Changed to me/accounts](../images/facebook-me-accounts.png)
+
+18. Then click "Copy Debug Information" paste the debug information to the email or support ticket
+
+![Copy Debug Information](../images/facebook-copy-debug-info.png)
+
 
 ## Delete Apps
 
